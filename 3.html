@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adding image inside table cell</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+        }
+        td {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 
-    <h1><span style="background-color: brown;">This is a span title</span></h1>
-    <h1><div style="background-color: cyan;">This is a div title</div></h1>
+    <h2>Adding image inside table cell</h2>
 
-
-
-    <p><span style="background-color: yellow;">This is a span sentence.</span></p>
-    <p><div style="background-color: cyan;">This is a div sentence.</div></p>
-
-    <p>lorem ipsum dolor<span style="background-color: yellow;"> this is a span within a paragraph </span> sit amet </p>
-    <p>lorem ipsum dolor<div style="background-color: cyan;"> this is a div within a paragraph </div> sit amet</p>
-
+    <table border="1" cellpadding="5" cellspacing="2">
+        <thead>
+            <tr>
+                <th>Course Name</th>
+                <th>Description</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DSA self placed course</td>
+                <td>Learn with gfg</td>
+                <td>
+                    <img src="https://via.placeholder.com/100x60?text=DSA" alt="DSA Course" width="100" height="60">
+                </td>
+            </tr>
+            <tr>
+                <td>AI for beginners</td>
+                <td>Learn Ai</td>
+                <td>
+                    <img src="https://via.placeholder.com/100x60?text=AI" alt="AI Course" width="100" height="60">
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 </html>
